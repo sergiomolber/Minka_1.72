@@ -1,4 +1,4 @@
-type,name,Comentario
+type,name,comentario
 """""","""{{$randomBankAccountName}}""",Validar enviar vacio el campo Type
 """BUSINESS""","""""",Validar enviar vacio el campo name
 null,"""{{$randomBankAccountName}}""",Validar enviar nulo el campo Type
