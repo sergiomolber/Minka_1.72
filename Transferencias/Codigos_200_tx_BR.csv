@@ -1,0 +1,7 @@
+source,target,type,received,dispatched,comentario
+$573185222222,wXRZdCXQmeNTpFqyPiZqTonvUAaurT4HA7,SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Validar la creacion de tx tipo REQUEST de forma correcta
+$573185222222,wXRZdCXQmeNTpFqyPiZqTonvUAaurT4HA7,REQUEST,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Validar la creacion de tx tipo REQUEST de forma correcta entre no regulados
+wXZaWUd8wW2aD787F2aLvfn39GPnAeFFHZ,$573185222223,SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Unico signer - acreditación en línea
+wXZaWUd8wW2aD787F2aLvfn39GPnAeFFHZ,$573185222222,SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Varios signers - queda pendiente
+wXZaWUd8wW2aD787F2aLvfn39GPnAeFFHZ,{{PHONE}},SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Signer alias celular - acreditación en línea
+$573185222222,wXRZdCXQmeNTpFqyPiZqTonvUAaurT4HA7,REQUEST,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Pendiente por aceptación tipo request
