@@ -1,0 +1,6 @@
+type,firstName,secondName,lastName,secondLastName,targetSpbviCode,Comentario
+"""PERSON""","""CARLOS""","""""","""MARTINEZ""","""""","""SRV""",Validar enviar vacio el campo secondName
+"""PERSON""","""CARLOS""","""""","""MARTINEZ""","""""","""SRV""",Validar enviar vacio el campo secondLastName
+"""PERSON""","""CARLOS""",null,"""MARTINEZ""","""""","""SRV""",Validar enviar nulo el campo secondName
+"""PERSON""","""CARLOS""","""""","""MARTINEZ""",null,"""SRV""",Validar enviar nulo el campo secondLastName
+"""PERSON""","""CARLOS""","""""","""MARTINEZ""",null,"""SRV""",Validar enviar SRV en el campo targetSpbviCode
