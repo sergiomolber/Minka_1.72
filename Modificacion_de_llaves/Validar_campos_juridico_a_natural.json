@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "b7c95e71-5895-4db9-9ef3-e61f31d85bb1",
-		"name": "Validar Obligatoriedad de campos Modificación de juridico a natural",
+		"_postman_id": "81921ddb-624d-4b87-b080-e3dc4f31b578",
+		"name": "Validar Obligatoriedad de campos Modificación de juridico a natural codigo 400",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-b7c95e71-5895-4db9-9ef3-e61f31d85bb1?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-81921ddb-624d-4b87-b080-e3dc4f31b578?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -50,21 +50,9 @@
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
-							"let response = pm.response.json();\r",
 							"\r",
-							"// Verificar que NOMBRE se haya modificado\r",
-							"pm.test(\"El campo firstName es 'SERGIO'\", function () {\r",
-							"    pm.expect(response.labels.firstName).to.eql(\"SERGIO\");\r",
-							" \r",
-							"});\r",
-							"\r",
-							"pm.test(\"El campo secondName es 'ANDRES'\", function () {\r",
-							"    pm.expect(response.labels.secondName).to.eql(\"ANDRES\");\r",
-							" \r",
-							"});\r",
-							"\r",
-							"\r",
-							""
+							"// Imprimir el comentario en la consola de Newman\r",
+							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -98,14 +86,14 @@
 					"raw": "{\r\n   \"labels\": { \r\n       \"type\": {{type}},\r\n     \"firstName\": {{firstName}},\r\n     \"secondName\": {{secondName}},\r\n     \"lastName\": {{lastName}},\r\n     \"secondLastName\": {{secondLastName}},\r\n      \"targetSpbviCode\": {{targetSpbviCode}}\r\n\r\n   }\r\n }"
 				},
 				"url": {
-					"raw": "{{url}}/v1/signer/{{handle}}",
+					"raw": "{{url}}/v1/signer/wQyTgSoZqFMEZFqFa11cT7fjd22AwBF5ai",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"v1",
 						"signer",
-						"{{handle}}"
+						"wQyTgSoZqFMEZFqFa11cT7fjd22AwBF5ai"
 					]
 				}
 			},
