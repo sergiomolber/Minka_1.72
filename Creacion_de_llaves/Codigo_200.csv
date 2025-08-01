@@ -25,4 +25,3 @@ PHONE,{{randomCel}},PERSON,CARLOS,ANDRES,VALENZUELA,null,PA,{{identificacion}},D
 PHONE,{{randomCel}},PERSON,CARLOS,ANDRES,VALENZUELA,null,PA,{{identificacion}},DBMI,{{randomNumericValue}},$bancorojo,SRV,900504001,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Validar al crear una llave con el valor de SVR
 PHONE,{{randomCel}},PERSON,CARLOS,ANDRES,VALENZUELA,null,PA,{{$randomPassword}},DBMI,{{randomNumericValue}},$bancorojo,SRV,900504001,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Validar al crear una llave valor alfanumerico en el numero de identificacion
 PHONE,{{randomCel}},PERSON,CARLOS,ANDRES,VALENZUELA,null,PA,{{identificacion}},DBMI,{{randomNumericValue}},$bancorojo,SRV,900504001,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Validar al crear una llave valor numerico en el numero de identificacion
-

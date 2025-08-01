@@ -292,7 +292,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"labels\": { \r\n\t\"type\": \"BUSSINES\",\r\n     \"name\": \"andresandresandresandresandresandresandr\"\r\n        \r\n   }\r\n }"
+					"raw": "{\r\n   \"labels\": { \r\n\t   \"type\": \"BUSINESS\",\r\n     \"name\": \"{{$randomBankAccountName}}\"\r\n   }\r\n }"
 				},
 				"url": {
 					"raw": "{{url}}/v1/signer/{{handle}}",
@@ -477,6 +477,9 @@
 					}
 				}
 			],
+			"protocolProfileBehavior": {
+				"tlsDisabledProtocols": []
+			},
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -501,7 +504,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"labels\": {\n    \"aliasType\": \"PHONE\",\n    \"aliasValue\": \"{{randomCel}}\",\n     \"type\": \"BUSSINES\",\n     \"name\": \"manuel\",\n     \"proprietary\": \"CC\",\n     \"identification\": \"11111111\",\n     \"bankAccountType\": \"DBMO\",\n     \"bankAccountNumber\": \"123456543212325421334\",\n     \"routerReference\": \"$bancorojo\",\n     \"targetSpbviCode\": \"TFY\",\n     \"bankId\": \"900504001\",\n     \"consented\": \"{{fecha_actual_formato_iso}}\"\n    ,\n         \"received\": \"{{fecha_actual_formato_iso}}\",\n         \"dispatched\":\"{{fecha_actual_formato_iso}}\"\n   }\n}"
+					"raw": "{\n    \"labels\": {\n    \"aliasType\": \"PHONE\",\n    \"aliasValue\": \"{{randomCel}}\",\n     \"type\": \"BUSINESS\",\n     \"name\": \"dfgdsgdfgefged\",\n     \"proprietary\": \"CC\",\n     \"identification\": \"11111111\",\n     \"bankAccountType\": \"DBMO\",\n     \"bankAccountNumber\": \"123456543212325421334\",\n     \"routerReference\": \"$bancorojo\",\n     \"targetSpbviCode\": \"TFY\",\n     \"bankId\": \"900504001\",\n     \"consented\": \"{{fecha_actual_formato_iso}}\"\n    ,\n         \"received\": \"{{fecha_actual_formato_iso}}\",\n         \"dispatched\":\"{{fecha_actual_formato_iso}}\"\n   }\n}"
 				},
 				"url": {
 					"raw": "{{url}}/v1/signer",
@@ -593,7 +596,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"labels\": { \r\n\t\"type\": \"PERSON\",\r\n     \"firstName\": \"manuel\",\r\n     \"secondName\": \"Manuel\",\r\n     \"lastName\": \"Diaz\",\r\n     \"secondLastName\": \"ACMEdfdsSASACMEdfdsSASyACMEdfds\"\r\n        \r\n   }\r\n }"
+					"raw": "{\r\n   \"labels\": { \r\n\t\"type\": \"PERSON\",\r\n     \"firstName\": \"manuel\",\r\n     \"secondName\": \"Manuel\",\r\n     \"lastName\": \"Diaz\",\r\n     \"secondLastName\": \"Mejia\"\r\n        \r\n   }\r\n }"
 				},
 				"url": {
 					"raw": "{{url}}/v1/signer/{{handle}}",

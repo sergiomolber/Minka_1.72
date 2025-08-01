@@ -416,7 +416,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"labels\": {\n    \"aliasType\": \"Account\",\n    \"aliasValue\": \"svgs:{{randomCel}}@banco.co\",\n     \"type\": \"PERSON\",\n     \"firstName\": \"Juan\",\n     \"secondName\": \"Pablo\",\n     \"lastName\": \"Rojas\",\n     \"secondLastName\": \"Perez\",\n     \"proprietary\": \"CC\",\n     \"identification\": \"170253687\",\n     \"bankAccountType\": \"DBMO\",\n     \"bankAccountNumber\": \"200658741\",\n     \"routerReference\": \"$bancorojo\",\n     \"targetSpbviCode\": \"TFY\",\n     \"bankId\": \"900504002\",\n     \"consented\": \"\"\n    ,\n         \"received\": \"2025-07-29T10:20:40.307-05:00\",\n         \"dispatched\":\"2025-07-29T10:20:40.307-05:00\"\n   }\n}",
+					"raw": "{\n    \"labels\": {\n    \"aliasType\": \"Account\",\n    \"aliasValue\": \"svgs:{{randomCel}}@bancorojo.co\",\n     \"type\": \"PERSON\",\n     \"firstName\": \"Juan\",\n     \"secondName\": \"Pablo\",\n     \"lastName\": \"Rojas\",\n     \"secondLastName\": \"Perez\",\n     \"proprietary\": \"CC\",\n     \"identification\": \"170253687\",\n     \"bankAccountType\": \"DBMO\",\n     \"bankAccountNumber\": \"200658741\",\n     \"routerReference\": \"$bancorojo\",\n     \"targetSpbviCode\": \"TFY\",\n     \"bankId\": \"900504002\",\n     \"consented\": \"\"\n    ,\n         \"received\": \"2025-07-29T10:20:40.307-05:00\",\n         \"dispatched\":\"2025-07-29T10:20:40.307-05:00\"\n   }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
