@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "65eb2f72-54db-4d5a-82c9-a3f7afdceb9b",
+		"_postman_id": "1cd0c574-0f13-46d0-9e6e-a517eaefe6a4",
 		"name": "Modificacion codigos 200",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-65eb2f72-54db-4d5a-82c9-a3f7afdceb9b?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-1cd0c574-0f13-46d0-9e6e-a517eaefe6a4?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -499,14 +499,14 @@
 					"raw": "{\r\n   \"labels\": { \r\n      \"bankAccountNumber\": \"{{randomNumericValue}}\"\r\n   }\r\n }"
 				},
 				"url": {
-					"raw": "{{url}}/v1/signer/wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z",
+					"raw": "{{url}}/v1/signer/wcr7cXVG16bBt8WGhnf2mFJad1SogxuN19",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"v1",
 						"signer",
-						"wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z"
+						"wcr7cXVG16bBt8WGhnf2mFJad1SogxuN19"
 					]
 				}
 			},
@@ -607,14 +607,14 @@
 					"raw": "{\r\n   \"labels\": { \r\n    \"bankAccountType\": \"DBMI\",\r\n      \"bankAccountNumber\": \"{{randomNumericValue}}\"\r\n   }\r\n }"
 				},
 				"url": {
-					"raw": "{{url}}/v1/signer/wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z",
+					"raw": "{{url}}/v1/signer/wbhTRbLGUa5mS1X8ox9CJc287UtQwfZzfC",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"v1",
 						"signer",
-						"wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z"
+						"wbhTRbLGUa5mS1X8ox9CJc287UtQwfZzfC"
 					]
 				}
 			},
