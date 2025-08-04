@@ -146,7 +146,7 @@
 							"        pm.environment.set(\"access_token\", token);\r",
 							"    }\r",
 							"});\r",
-							"\r",
+							"//Generar valor alfanumerico para el numero de identificacion\r",
 							"function generarAlfanumerico(longitud) {\r",
 							"    const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';\r",
 							"    let resultado = '';\r",
