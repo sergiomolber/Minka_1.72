@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Modificar Llave de persona Juridica a Natural - obligatoriedad de campos",
+			"name": "Modificar Llave de persona Juridica a Natural - obligatoriedad de campos codigo 400",
 			"event": [
 				{
 					"listen": "prerequest",
