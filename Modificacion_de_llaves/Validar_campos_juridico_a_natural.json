@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "b7c95e71-5895-4db9-9ef3-e61f31d85bb1",
-		"name": "Validar Obligatoriedad de campos Modificación de juridico a natural codigos 200",
+		"_postman_id": "81921ddb-624d-4b87-b080-e3dc4f31b578",
+		"name": "Validar Obligatoriedad de campos Modificación de juridico a natural codigo 400",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-b7c95e71-5895-4db9-9ef3-e61f31d85bb1?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-81921ddb-624d-4b87-b080-e3dc4f31b578?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
-			"name": "Modificar Llave de persona Juridica a Natural - codigos 200",
+			"name": "Modificar Llave de persona Juridica a Natural - obligatoriedad de campos",
 			"event": [
 				{
 					"listen": "prerequest",
@@ -47,11 +47,9 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
 							"});\r",
-							"\r",
-							"\r",
 							"\r",
 							"// Imprimir el comentario en la consola de Newman\r",
 							"console.log(\"Comentario del caso de prueba: \", pm.iterationData.get(\"comentario\"));"
