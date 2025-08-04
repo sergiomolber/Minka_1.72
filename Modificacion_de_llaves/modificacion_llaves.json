@@ -499,14 +499,14 @@
 					"raw": "{\r\n   \"labels\": { \r\n      \"bankAccountNumber\": \"{{randomNumericValue}}\"\r\n   }\r\n }"
 				},
 				"url": {
-					"raw": "{{url}}/v1/signer/wgCpnHSNvrkaHvh8d6HYXrg9xgWEvwguV4",
+					"raw": "{{url}}/v1/signer/wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"v1",
 						"signer",
-						"wgCpnHSNvrkaHvh8d6HYXrg9xgWEvwguV4"
+						"wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z"
 					]
 				}
 			},
@@ -607,14 +607,14 @@
 					"raw": "{\r\n   \"labels\": { \r\n    \"bankAccountType\": \"DBMI\",\r\n      \"bankAccountNumber\": \"{{randomNumericValue}}\"\r\n   }\r\n }"
 				},
 				"url": {
-					"raw": "{{url}}/v1/signer/wNrtGBw2wrhwoqu2XqGPjJJi7ajekdTcTy",
+					"raw": "{{url}}/v1/signer/wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"v1",
 						"signer",
-						"wNrtGBw2wrhwoqu2XqGPjJJi7ajekdTcTy"
+						"wPnk876kMkzC2b3vMwn6u2BVDuvM9Uzx8Z"
 					]
 				}
 			},
