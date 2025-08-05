@@ -212,7 +212,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"labels\": {\n    \"aliasType\": \"{{aliasType}}\",\n    \"aliasValue\": \"{{aliasValue}}\",\n     \"type\": \"{{type}}\",\n     \"firstName\": \"{{firstName}}\",\n     \"secondName\": \"{{secondName}}\",\n     \"lastName\": \"{{lastName}}\",\n     \"secondLastName\": \"{{secondLastName}}\",\n     \"proprietary\": \"{{proprietary}}\",\n     \"identification\": \"{{identification}}\",\n     \"bankAccountType\": \"{{bankAccountType}}\",\n     \"bankAccountNumber\": \"{{bankAccountNumber}}\",\n     \"routerReference\": \"{{routerReference}}\",\n     \"targetSpbviCode\": \"{{targetSpbviCode}}\",\n     \"bankId\": \"{{bankId}}\",\n     \"consented\": \"{{consented}}\",\n     \"received\": \"{{received}}\",\n     \"dispatched\":\"{{dispatched}}\"\n   }\n}"
+					"raw": "{\n    \"labels\": {\n        \"aliasType\": {{aliasType}},\n        \"aliasValue\": {{aliasValue}},\n        \"type\": {{type}},\n        \"firstName\": {{firstName}},\n        \"secondName\": {{secondName}},\n        \"lastName\": {{lastName}},\n        \"secondLastName\": {{secondLastName}},\n        \"proprietary\": {{proprietary}},\n        \"identification\": {{identification}},\n        \"bankAccountType\": {{bankAccountType}},\n        \"bankAccountNumber\": {{bankAccountNumber}},\n        \"routerReference\": {{routerReference}},\n        \"targetSpbviCode\": {{targetSpbviCode}},\n        \"bankId\": {{bankId}},\n        \"consented\": {{consented}},\n        \"received\": {{received}},\n        \"dispatched\": {{dispatched}}\n    }\n}"
 				},
 				"url": {
 					"raw": "{{url}}/v1/signer",
