@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "db169f3e-be84-4651-8458-b7d7ac16df7d",
+		"_postman_id": "d497efe0-adc6-426c-8e8a-05f2abea3afd",
 		"name": "Crear transferencias",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-db169f3e-be84-4651-8458-b7d7ac16df7d?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-d497efe0-adc6-426c-8e8a-05f2abea3afd?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
-			"name": "create a transfer SEND Y SENDMOL",
+			"name": "create a transfer SEND",
 			"event": [
 				{
 					"listen": "prerequest",
