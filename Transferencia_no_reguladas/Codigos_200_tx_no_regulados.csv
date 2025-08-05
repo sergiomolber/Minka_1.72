@@ -5,3 +5,6 @@ wXZaWUd8wW2aD787F2aLvfn39GPnAeFFHZ,$573185222223,SEND,{{fecha_actual_formato_iso
 wXZaWUd8wW2aD787F2aLvfn39GPnAeFFHZ,$573185222222,SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Varios signers - queda pendiente
 wXZaWUd8wW2aD787F2aLvfn39GPnAeFFHZ,{{PHONE}},SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Signer alias celular - acreditación en línea
 $573185222222,wXRZdCXQmeNTpFqyPiZqTonvUAaurT4HA7,REQUEST,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Pendiente por aceptación tipo request
+{{MERCHANT}},wMnf1jjced8aR2PmfZBRNkAaXEntGtrNHg,SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Validar la creacion de tx tipo SEND de forma correcta entre regulado y no regulado
+wbqov2EKi37bMKgqTHvYseUkjGkwa9S8zD,wSgtZxPqYN4LBRBGxKcfB7mi8XTEPtaoGK,SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Crear la transaccion con llave regulada y no regulada de diferente banco
+wiYb8FfdVfNpsTJEa4tRYZ2R13goNWkkMD,wacrEkWBk7hsNPtNJ2ZsBam491sxiZQduP,SEND,{{fecha_actual_formato_iso}},{{fecha_actual_formato_iso}},Crear la transaccion con llave regulada y no regulada del mismo banco 
