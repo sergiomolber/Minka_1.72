@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "0b8c1b95-28d6-4447-b2b3-22907028acdf",
+		"_postman_id": "f4181096-03b2-4dc1-9fe8-184fcaf3a2f2",
 		"name": "Codigos de respuesta 200",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-0b8c1b95-28d6-4447-b2b3-22907028acdf?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/MINKA-FASE-2~0b289b12-251d-435b-869e-33b7b107018f/collection/29460625-f4181096-03b2-4dc1-9fe8-184fcaf3a2f2?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -25,7 +25,7 @@
 							"// Guardar como variable de entorno\r",
 							"pm.environment.set(\"identificacion\", identificacion);\r",
 							"\r",
-							"console.log(\"Identificación generada:\", identificacion);\r",
+							"\r",
 							"\r",
 							"function generateRandomString(length) {\r",
 							"    const letters = 'abcdefghijklmnopqrstuvwxyz';\r",
@@ -173,7 +173,7 @@
 							"pm.test(\"Extraer handle\", function () {\r",
 							"    let response = pm.response.json(); // Parsear la respuesta como JSON\r",
 							"    pm.environment.set(\"handle\", response.handle); // Guardar el valor en una variable de entorno\r",
-							"    console.log(\"Handle capturado:\", response.handle);\r",
+							"    \r",
 							"});\r",
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
