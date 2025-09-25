@@ -119,7 +119,52 @@
 							"const randomCel = _.random(3102047071,3992047071)\r",
 							"pm.variables.set(\"randomCel\", randomCel );\r",
 							"// Genera un valor aleatorio\r",
-							"let randomValue = Math.random();"
+							"let randomValue = Math.random();\r",
+							"\r",
+							"pm.sendRequest({\r",
+							"    url: 'https://ach-minka-stg.transferenciasinmediatas.com/oauth/token',\r",
+							"    method: 'POST',\r",
+							"    header: {\r",
+							"        'Content-Type': 'application/x-www-form-urlencoded'\r",
+							"    },\r",
+							"    body: {\r",
+							"        mode: 'urlencoded',\r",
+							"        urlencoded: [\r",
+							"            { key: 'grant_type', value: 'client_credentials' },\r",
+							"            { key: 'client_id', value: pm.environment.get(\"client_id\") },\r",
+							"            { key: 'client_secret', value: pm.environment.get(\"client_secret\") },\r",
+							"            { key: 'audience', value: pm.environment.get(\"audience\") } // opcional según el proveedor\r",
+							"        ]\r",
+							"    }\r",
+							"}, function (err, res) {\r",
+							"    if (err) {\r",
+							"        console.log(\"Error al obtener el token:\", err);\r",
+							"    } else {\r",
+							"        let token = res.json().access_token;\r",
+							"        pm.environment.set(\"access_token\", token);\r",
+							"    }\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Parsear la respuesta JSON\r",
+							"let response = pm.response.json();\r",
+							"\r",
+							"// Capturar los valores deseados\r",
+							"let handle = response.handle;\r",
+							"let aliasValue = response.labels.aliasValue;\r",
+							"\r",
+							"\r",
+							"// Guardar en variables de entorno o colección\r",
+							"pm.environment.set(\"aliasValue1\", aliasValue);\r",
+							"pm.environment.set(\"handle1\", handle);"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -128,83 +173,12 @@
 			],
 			"request": {
 				"auth": {
-					"type": "oauth2",
-					"oauth2": [
+					"type": "bearer",
+					"bearer": [
 						{
-							"key": "clientSecret",
-							"value": "{{client_secret}}",
+							"key": "token",
+							"value": "{{access_token}}",
 							"type": "string"
-						},
-						{
-							"key": "clientId",
-							"value": "{{client_id}}",
-							"type": "string"
-						},
-						{
-							"key": "accessTokenUrl",
-							"value": "{{url}}/oauth/token",
-							"type": "string"
-						},
-						{
-							"key": "grant_type",
-							"value": "client_credentials",
-							"type": "string"
-						},
-						{
-							"key": "tokenName",
-							"value": "token",
-							"type": "string"
-						},
-						{
-							"key": "accessToken",
-							"value": "MTU2NzY5MzEzOTUzMDJCRWNiMWEzZkZkQ0VhMGYwODJCZWEyQUFFZWY1MDI5",
-							"type": "string"
-						},
-						{
-							"key": "tokenType",
-							"value": "bearer",
-							"type": "string"
-						},
-						{
-							"key": "addTokenTo",
-							"value": "header",
-							"type": "string"
-						},
-						{
-							"key": "callBackUrl",
-							"type": "any"
-						},
-						{
-							"key": "authUrl",
-							"type": "any"
-						},
-						{
-							"key": "clientAuth",
-							"type": "any"
-						},
-						{
-							"key": "grantType",
-							"type": "any"
-						},
-						{
-							"key": "scope",
-							"type": "any"
-						},
-						{
-							"key": "username",
-							"type": "any"
-						},
-						{
-							"key": "password",
-							"type": "any"
-						},
-						{
-							"key": "redirectUri",
-							"type": "any"
-						},
-						{
-							"key": "refreshToken",
-							"type": "any"
 						}
 					]
 				},
@@ -374,13 +348,13 @@
 							"});\r",
 							"let response = pm.response.json();\r",
 							"\r",
-							"// Capturar los valores deseados\r",
-							"\r",
+							"let handle = response.handle;\r",
 							"let aliasValue = response.labels.aliasValue;\r",
 							"\r",
-							"\r",
 							"// Guardar en variables de entorno o colección\r",
-							"pm.environment.set(\"aliasValue2\", aliasValue);\r",
+							"pm.environment.set(\"aliasValue\", aliasValue);\r",
+							"pm.environment.set(\"handle3\", handle);\r",
+							"\r",
 							""
 						],
 						"type": "text/javascript",
@@ -517,7 +491,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"source\":\"{{handle}}\",\n  \"target\":\"{{aliasValue2}}\",\n  \"symbol\":\"$tin\",\n  \"amount\":\"143000\",\n  \"labels\":{\n  \t\"tx_id\": \"1336\",\n  \t\"type\":\"SEND\",\n    \"description\":\"Prueba wallet existente\",\n    \"numberOfTransactions\": \"1\",\n    \"sourceChannel\": \"APP\",\n    \"sourceCreated\": \"2019-08-23T20:21:01.284\",\n    \"transactionPurpose\": \"TRANSFER\",\n    \"received\": \"2025-04-01T12:29:57.442-05:00\",\n    \"dispatched\":\"2025-04-01T12:29:57.442-05:00\",\n  \t\"deviceFingerPrint\": {\n  \t\t\"hash\": \"0c6e845d-ee0f-47eb-bd71-5e9ef2224125\",\n        \"ipAddress\": \"190.242.46.190\",\n        \"geolocation\": \"DC\",\n        \"country\": \"Colombia\",\n        \"city\": \"Bogota\",\n        \"mobileDevice\": \"a7dd84ds8\",\n        \"SIMCardId\": \"aaabb\",\n        \"model\": \"samnsung\",\n        \"operator\": \"claro\"\n  \t}\n  }\n}",
+					"raw": "{\n  \"source\":\"{{handle}}\",\n  \"target\":\"{{handle3}}\",\n  \"symbol\":\"$tin\",\n  \"amount\":\"143000\",\n  \"labels\":{\n  \t\"tx_id\": \"1336\",\n  \t\"type\":\"SEND\",\n    \"description\":\"Prueba wallet existente\",\n    \"numberOfTransactions\": \"1\",\n    \"sourceChannel\": \"APP\",\n    \"sourceCreated\": \"2019-08-23T20:21:01.284\",\n    \"transactionPurpose\": \"TRANSFER\",\n    \"received\": \"2025-04-01T12:29:57.442-05:00\",\n    \"dispatched\":\"2025-04-01T12:29:57.442-05:00\",\n  \t\"deviceFingerPrint\": {\n  \t\t\"hash\": \"0c6e845d-ee0f-47eb-bd71-5e9ef2224125\",\n        \"ipAddress\": \"190.242.46.190\",\n        \"geolocation\": \"DC\",\n        \"country\": \"Colombia\",\n        \"city\": \"Bogota\",\n        \"mobileDevice\": \"a7dd84ds8\",\n        \"SIMCardId\": \"aaabb\",\n        \"model\": \"samnsung\",\n        \"operator\": \"claro\"\n  \t}\n  }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
