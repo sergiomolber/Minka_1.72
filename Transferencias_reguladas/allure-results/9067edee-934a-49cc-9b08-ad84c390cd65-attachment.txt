@@ -1,0 +1,2 @@
+level: log, messages: tx_ref:,02b7PMm65pij1WbWX
+level: log, messages: Comentario del caso de prueba: ,Validar la funcionalidad de liquidación de una instrucción de pago On-Us(Cuando la llave entidad destino el campo este vacio)

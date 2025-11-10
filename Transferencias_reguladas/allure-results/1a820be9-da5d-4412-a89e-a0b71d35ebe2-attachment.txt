@@ -1,0 +1,2 @@
+level: log, messages: tx_ref:,02b7QXeYVH30oBQoZ
+level: log, messages: Comentario del caso de prueba: ,Validar la funcionalidad de campo (tx_id) solo con carecteres alfabéticos

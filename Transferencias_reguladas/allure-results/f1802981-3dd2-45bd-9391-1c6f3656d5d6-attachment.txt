@@ -1,0 +1,28 @@
+{
+  "source":"wNv7rAtfnbCTPUBqLVXeRaAEGRYhHBfxzR",
+  "target":"wUydvLj67UbJbb3jZoa3Dk6RLFRDPvS3Vd",
+  "symbol":"$tin",
+  "amount":"11552001",
+  "labels":{
+  	"tx_id": "20251110900504002TFY200100211243113",
+  	"type":"SENDMOL",
+    "description":"dfdsfdsfds",
+    "numberOfTransactions": "1",
+    "sourceChannel": "APP",
+    "sourceCreated": "2019-08-23T20:21:01.284",
+    "transactionPurpose": "TRANSFER",
+    "received": "2025-11-10T17:04:46.561-05:00",
+    "dispatched":"2025-11-10T17:04:46.561-05:00",
+  	"deviceFingerPrint": {
+  		"hash": "26fff5af6441f8e15a71e8d62c361714484b1b308c99e8eb68ca85e2a7e0dc58",
+        "ipAddress": "190.242.46.190",
+        "geolocation": "DC",
+        "country": "Colombia",
+        "city": "Bogota",
+        "mobileDevice": "a7dd84ds8",
+        "SIMCardId": "aaabb",
+        "model": "samnsung",
+        "operator": "claro"
+  	}
+  }
+}

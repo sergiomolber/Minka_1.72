@@ -1,3 +1,0 @@
-level: warn, messages: Using "_" is deprecated. Use "require('lodash')" instead.
-level: log, messages: Identificación generada:,972960398900837
-level: log, messages: Comentario del caso de prueba: ,Validar que el bankAccountNumber  al enviarlo null

@@ -1,0 +1,1 @@
+{"error":{"code":118,"message":"\"amount\" must be greater or equal to 1.00"}}

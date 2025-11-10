@@ -1,0 +1,2 @@
+level: log, messages: tx_ref:,02b7NSKiZqIowleC3
+level: log, messages: Comentario del caso de prueba: ,Validar la respuesta del MOL para una instrucción de Pago Intra-SPBVI cuando el monto es superior a 1000 UVB informadas en la regulación

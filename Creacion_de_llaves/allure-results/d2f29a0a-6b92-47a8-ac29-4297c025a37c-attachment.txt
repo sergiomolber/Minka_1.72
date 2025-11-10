@@ -1,3 +1,0 @@
-level: warn, messages: Using "_" is deprecated. Use "require('lodash')" instead.
-level: log, messages: Identificación generada:,926559758190606
-level: log, messages: Comentario del caso de prueba: ,Validar que el routerReference  al enviarlo null

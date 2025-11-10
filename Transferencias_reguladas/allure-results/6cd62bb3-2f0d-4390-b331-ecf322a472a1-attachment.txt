@@ -1,0 +1,2 @@
+level: log, messages: tx_ref:,02b7OAP9G1iDVl4TF
+level: log, messages: Comentario del caso de prueba: ,Validar la funcionalidad de liquidación de una instrucción de pago On-Us(misma entidad de origen y destino)

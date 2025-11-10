@@ -1,0 +1,1 @@
+{"error":{"code":118,"message":"\"amount\" with value \"kjfkdsjfkls\" fails to match the required pattern: /^[0-9]+(\\.[0-9][0-9]?)?$/"}}

@@ -1,0 +1,2 @@
+level: log, messages: tx_ref:,02b7QmxaS88FZEcmd
+level: log, messages: Comentario del caso de prueba: ,Validar la funcionalidad de campo (tx_id) formato correcto
